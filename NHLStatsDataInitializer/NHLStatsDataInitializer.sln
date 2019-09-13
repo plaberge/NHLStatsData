@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHLStatsDataInitializer.Console", "NHLStatsDataInitializer.Console\NHLStatsDataInitializer.Console.csproj", "{F39D5D64-A7B8-4C73-A509-97E473C78DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHLStatsDAL", "NHLStatsDAL\NHLStatsDAL.csproj", "{86C653B7-1C50-45AE-9651-62C593A93268}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "NHLStats.Database", "NHLStats.Database\NHLStats.Database.sqlproj", "{31463DB1-E513-4F5B-99B2-44496D7EF76C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F39D5D64-A7B8-4C73-A509-97E473C78DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39D5D64-A7B8-4C73-A509-97E473C78DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39D5D64-A7B8-4C73-A509-97E473C78DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39D5D64-A7B8-4C73-A509-97E473C78DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86C653B7-1C50-45AE-9651-62C593A93268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86C653B7-1C50-45AE-9651-62C593A93268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86C653B7-1C50-45AE-9651-62C593A93268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86C653B7-1C50-45AE-9651-62C593A93268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31463DB1-E513-4F5B-99B2-44496D7EF76C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31463DB1-E513-4F5B-99B2-44496D7EF76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31463DB1-E513-4F5B-99B2-44496D7EF76C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{31463DB1-E513-4F5B-99B2-44496D7EF76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31463DB1-E513-4F5B-99B2-44496D7EF76C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31463DB1-E513-4F5B-99B2-44496D7EF76C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F51973A1-757D-4BFA-9C9C-CCFBF7AAB2AA}
+	EndGlobalSection
+EndGlobal
