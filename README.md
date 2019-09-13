@@ -4,8 +4,8 @@ The code in this repository provides an example of how to create a SQL Azure dat
 
 ## What''s in this repository?
 The following projects are found within this repository:
-[*NHLStatsData/NHLStatsDataInitializer/NHLStats.Database/](https://github.com/plaberge/NHLStatsData/tree/master/NHLStatsDataInitializer/NHLStats.Database): A Visual Studio  Data Application project holding the DB schema
-[*NHLStatsData/NHLStatsDataInitializer/NHLStatsDAL/](https://github.com/plaberge/NHLStatsData/tree/master/NHLStatsDataInitializer/NHLStatsDAL):  A Data Access Layer Visual Studio .NET Standard Library project for communicating with a database
+*[NHLStatsData/NHLStatsDataInitializer/NHLStats.Database/](https://github.com/plaberge/NHLStatsData/tree/master/NHLStatsDataInitializer/NHLStats.Database): A Visual Studio  Data Application project holding the DB schema
+*[NHLStatsData/NHLStatsDataInitializer/NHLStatsDAL/](https://github.com/plaberge/NHLStatsData/tree/master/NHLStatsDataInitializer/NHLStatsDAL):  A Data Access Layer Visual Studio .NET Standard Library project for communicating with a database
 *[NHLStatsData/NHLStatsDataInitializer/NHLStatsDataInitializer.Console/](https://github.com/plaberge/NHLStatsData/tree/master/NHLStatsDataInitializer/NHLStatsDataInitializer.Console): A sample utility that makes use of the NHLStatsDAL project to insert hockey statistics data into a database using the schema from NHLStats.Database project
 
 ### Notes
