@@ -14,30 +14,7 @@ namespace NHLStatsDAL
         private static string _dataSource { get; set; }
         private static string _databaseName { get; set; }
 
-        // The Azure Cosmos DB endpoint
-        //private static readonly string EndpointUri = "https://nhlstats.documents.azure.com:443/";
-        // The primary key for the Azure Cosmos account.
-        //private static readonly string PrimaryKey = "jai58IvOWYMiqjE0yeGcNfaxOYK09g7FPahsl3DhayHe7ArWt1beIFDN36VaunvypANiIy0zplG4SElewdb9dA==";
-
-        // The Cosmos client instance
-        //private CosmosClient cosmosClient;
-
-        // The Comsmos database 
-        //private CosmosDatabase database;
-
-        // The container we will create.
-        //private CosmosContainer container;
-
-        // The name of the database and containers 
-        //private string databaseId = "NHLStatsJSON";
-        //private string conferenceContainerId = "Conference";
-        //private string divisionContainerId = "Division";
-        //private string gameContainerId = "Game";
-        //private string gameContentContainerId = "GameContent";
-        //private string playerContainerId = "Player";
-        //private string scheduleContainerId = "Schedule";
-        //private string teamContainerId = "Team";
-        //private string venueContainerId = "Venue";
+        
 
         private SqlConnectionStringBuilder _connectionStringBuilder;
 
@@ -45,17 +22,14 @@ namespace NHLStatsDAL
         public DataAccessHelper(string SQLconnection)
         {
 
-            // CosmosDB connectivity
-            //cosmosClient = new CosmosClient(EndpointUri, PrimaryKey);
+            
 
 
             // SQL Database functionality
             if (SQLconnection == "")
             {
                 // If you can't get the DB Connection string from an environment variable, build it now.
-
-
-
+                               
                 // SQL DB data Source value (you may want to be more secure with this - feel free to change!)
                 _userName = "PUT_DB_USERNAME_HERE";
                 _password = "PUT_PASSWORD_HERE";
